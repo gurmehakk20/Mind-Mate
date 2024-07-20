@@ -1,0 +1,61 @@
+/* Set dark background color for the entire body */
+body {
+    background-color: #222;
+    color: #fff; /* Text color */
+    font-family: Arial, sans-serif; /* Specify font */
+  }
+  
+  /* Style for headings */
+  h1, h2, h3 {
+    color: #fff; /* Heading text color */
+  }
+  
+  /* Set background color and text color for containers */
+  .container {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+  }
+  
+  /* Style for buttons */
+  .button {
+    background-color: #444;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* Style for links */
+  a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  /* Example styling for input fields */
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    background-color: #444;
+    color: #fff;
+    border: 1px solid #666;
+    padding: 8px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    width: 100%;
+    box-sizing: border-box; /* Include padding and border in width */
+  }
+  
+  /* Style for hover effect on links and buttons */
+  a:hover,
+  .button:hover {
+    opacity: 0.8;
+  }
+  
